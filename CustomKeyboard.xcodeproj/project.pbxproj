@@ -13,6 +13,9 @@
 		86B9122C19EBB9080012545B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B9122B19EBB9080012545B /* Images.xcassets */; };
 		86B9122F19EBB9080012545B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B9122D19EBB9080012545B /* LaunchScreen.xib */; };
 		86B9123B19EBB9080012545B /* CustomKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B9123A19EBB9080012545B /* CustomKeyboardTests.swift */; };
+		86B9124D19EBB94F0012545B /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B9124C19EBB94F0012545B /* KeyboardViewController.swift */; };
+		86B9125019EBB94F0012545B /* Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 86B9124819EBB94E0012545B /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86B9125819EBB9B90012545B /* adidas-euro-2012-glider-football.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86B9125719EBB9B90012545B /* adidas-euro-2012-glider-football.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +26,35 @@
 			remoteGlobalIDString = 86B9121E19EBB9080012545B;
 			remoteInfo = CustomKeyboard;
 		};
+		86B9124E19EBB94F0012545B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B9121719EBB9080012545B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B9124719EBB94E0012545B;
+			remoteInfo = Keyboard;
+		};
+		86B9125119EBB94F0012545B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B9121719EBB9080012545B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B9124719EBB94E0012545B;
+			remoteInfo = Keyboard;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86B9125619EBB94F0012545B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				86B9125019EBB94F0012545B /* Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		86B9121F19EBB9080012545B /* CustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +67,10 @@
 		86B9123419EBB9080012545B /* CustomKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B9123919EBB9080012545B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B9123A19EBB9080012545B /* CustomKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardTests.swift; sourceTree = "<group>"; };
+		86B9124819EBB94E0012545B /* Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B9124B19EBB94F0012545B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B9124C19EBB94F0012545B /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		86B9125719EBB9B90012545B /* adidas-euro-2012-glider-football.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adidas-euro-2012-glider-football.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +88,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86B9124519EBB94E0012545B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +103,7 @@
 			children = (
 				86B9122119EBB9080012545B /* CustomKeyboard */,
 				86B9123719EBB9080012545B /* CustomKeyboardTests */,
+				86B9124919EBB94F0012545B /* Keyboard */,
 				86B9122019EBB9080012545B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +113,7 @@
 			children = (
 				86B9121F19EBB9080012545B /* CustomKeyboard.app */,
 				86B9123419EBB9080012545B /* CustomKeyboardTests.xctest */,
+				86B9124819EBB94E0012545B /* Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +134,7 @@
 		86B9122219EBB9080012545B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86B9125719EBB9B90012545B /* adidas-euro-2012-glider-football.jpg */,
 				86B9122319EBB9080012545B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +157,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		86B9124919EBB94F0012545B /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				86B9124C19EBB94F0012545B /* KeyboardViewController.swift */,
+				86B9124A19EBB94F0012545B /* Supporting Files */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		86B9124A19EBB94F0012545B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86B9124B19EBB94F0012545B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +184,13 @@
 				86B9121B19EBB9080012545B /* Sources */,
 				86B9121C19EBB9080012545B /* Frameworks */,
 				86B9121D19EBB9080012545B /* Resources */,
+				86B9125619EBB94F0012545B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				86B9124F19EBB94F0012545B /* PBXTargetDependency */,
+				86B9125219EBB94F0012545B /* PBXTargetDependency */,
 			);
 			name = CustomKeyboard;
 			productName = CustomKeyboard;
@@ -150,6 +215,23 @@
 			productReference = 86B9123419EBB9080012545B /* CustomKeyboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		86B9124719EBB94E0012545B /* Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B9125319EBB94F0012545B /* Build configuration list for PBXNativeTarget "Keyboard" */;
+			buildPhases = (
+				86B9124419EBB94E0012545B /* Sources */,
+				86B9124519EBB94E0012545B /* Frameworks */,
+				86B9124619EBB94E0012545B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyboard;
+			productName = Keyboard;
+			productReference = 86B9124819EBB94E0012545B /* Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +247,9 @@
 					86B9123319EBB9080012545B = {
 						CreatedOnToolsVersion = 6.0.1;
 						TestTargetID = 86B9121E19EBB9080012545B;
+					};
+					86B9124719EBB94E0012545B = {
+						CreatedOnToolsVersion = 6.0.1;
 					};
 				};
 			};
@@ -183,6 +268,7 @@
 			targets = (
 				86B9121E19EBB9080012545B /* CustomKeyboard */,
 				86B9123319EBB9080012545B /* CustomKeyboardTests */,
+				86B9124719EBB94E0012545B /* Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -195,10 +281,18 @@
 				86B9122A19EBB9080012545B /* Main.storyboard in Resources */,
 				86B9122F19EBB9080012545B /* LaunchScreen.xib in Resources */,
 				86B9122C19EBB9080012545B /* Images.xcassets in Resources */,
+				86B9125819EBB9B90012545B /* adidas-euro-2012-glider-football.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		86B9123219EBB9080012545B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B9124619EBB94E0012545B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,6 +319,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86B9124419EBB94E0012545B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B9124D19EBB94F0012545B /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +334,16 @@
 			isa = PBXTargetDependency;
 			target = 86B9121E19EBB9080012545B /* CustomKeyboard */;
 			targetProxy = 86B9123519EBB9080012545B /* PBXContainerItemProxy */;
+		};
+		86B9124F19EBB94F0012545B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B9124719EBB94E0012545B /* Keyboard */;
+			targetProxy = 86B9124E19EBB94F0012545B /* PBXContainerItemProxy */;
+		};
+		86B9125219EBB94F0012545B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B9124719EBB94E0012545B /* Keyboard */;
+			targetProxy = 86B9125119EBB94F0012545B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -388,6 +500,30 @@
 			};
 			name = Release;
 		};
+		86B9125419EBB94F0012545B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		86B9125519EBB94F0012545B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +549,14 @@
 			buildConfigurations = (
 				86B9124219EBB9080012545B /* Debug */,
 				86B9124319EBB9080012545B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86B9125319EBB94F0012545B /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B9125419EBB94F0012545B /* Debug */,
+				86B9125519EBB94F0012545B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
