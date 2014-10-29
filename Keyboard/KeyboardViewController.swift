@@ -51,6 +51,7 @@ class KeyboardViewController: UIInputViewController {
         return button
     }
     func didTapButton(sender: AnyObject?){
+        //hozzászólás hozzáadva
         let button = sender as UIButton
         let title = button.titleForState(.Normal)
         var proxy = textDocumentProxy as UITextDocumentProxy
